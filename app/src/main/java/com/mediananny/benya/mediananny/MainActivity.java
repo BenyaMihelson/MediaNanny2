@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity
     private static final String STATE_ITEMS2 = "items";
 
 
+
   /*  //new vrsion of navigation
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
