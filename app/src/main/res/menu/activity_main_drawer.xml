@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/main"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Главная"
+
+            />
+
+        <item
+            android:id="@+id/news"
+            android:icon="@mipmap/ic_news"
+            android:title="Новости" />
+
+        <item
+            android:id="@+id/report"
+            android:icon="@mipmap/ic_report"
+            android:title="Репортажи" />
+
+        <item android:id="@+id/obzor"
+            android:icon="@mipmap/ic_review"
+            android:title="Обзоры" />
+
+        <item android:id="@+id/interview"
+            android:icon="@mipmap/ic_interview"
+            android:title="Интервью"
+            />
+
+        <item android:id="@+id/opros"
+            android:icon="@drawable/ic_opros"
+            android:title="Опросы" />
+
+        <item android:id="@+id/video"
+            android:icon="@drawable/ic_opros"
+            android:title="Видео" />
+
+        <item android:id="@+id/raznoe"
+            android:icon="@mipmap/ic_other"
+            android:title="Разное" />
+
+        <item android:id="@+id/favorite"
+            android:icon="@mipmap/ic_favorite_on"
+            android:title="Избранное" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
