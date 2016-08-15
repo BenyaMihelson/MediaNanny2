@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity
 
     private static final String STATE_ID = "id";
     private static final String STATE_ITEMS = "items";
+    private static final String STATE_ITEMS2 = "items";
 
 
   /*  //new vrsion of navigation
